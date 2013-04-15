@@ -34,4 +34,20 @@
  NSLog(@”%@\n”,obj);
  }
  */
+
+/* NSDictionary
+ -(id) dictionaryWithObjectsAndKeys:(id) obj,…;
+ -(id) objectForKey : (id) aKey;
+
+*/
+
+/* NSMutableDictionary
+ +(id) dictionaryWithCapacity : (NSUInteger) num;
+ -(void) setObject:(id) obj forKey:(id) aKey;
+ -(void) removeObjectForKey : (id) aKey;
+ NSArray *keys = [dict allKeys];
+
+*/
+
+
 #endif

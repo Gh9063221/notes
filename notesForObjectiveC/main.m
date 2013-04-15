@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ExCh05.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        ExCh05();
         
     }
     return 0;
