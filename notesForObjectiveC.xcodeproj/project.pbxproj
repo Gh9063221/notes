@@ -31,6 +31,7 @@
 		0F96E74E171BA7B8002BB1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F96E751171BA7B8002BB1E1 /* notesForObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "notesForObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		0F96E752171BA7B8002BB1E1 /* notesForObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = notesForObjectiveC.1; sourceTree = "<group>"; };
+		0F96E75C171BA812002BB1E1 /* ArrayAndDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayAndDictionary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		0F96E73F171BA7B8002BB1E1 = {
 			isa = PBXGroup;
 			children = (
+				0F96E75C171BA812002BB1E1 /* ArrayAndDictionary.h */,
 				0F96E74D171BA7B8002BB1E1 /* notesForObjectiveC */,
 				0F96E74A171BA7B8002BB1E1 /* Frameworks */,
 				0F96E749171BA7B8002BB1E1 /* Products */,
@@ -242,6 +244,7 @@
 				0F96E758171BA7B8002BB1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
