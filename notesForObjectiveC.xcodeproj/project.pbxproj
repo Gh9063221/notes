@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F448C7C171D326100E1CAFA /* RetainTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F448C7B171D326100E1CAFA /* RetainTester.m */; };
+		0F8E781D1720F1BC00761C47 /* NSString+NSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E781C1720F1BC00761C47 /* NSString+NSStringCategory.m */; };
 		0F96E74C171BA7B8002BB1E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96E74B171BA7B8002BB1E1 /* Foundation.framework */; };
 		0F96E74F171BA7B8002BB1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F96E74E171BA7B8002BB1E1 /* main.m */; };
 		0F96E753171BA7B8002BB1E1 /* notesForObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F96E752171BA7B8002BB1E1 /* notesForObjectiveC.1 */; };
@@ -27,6 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F448C7A171D326100E1CAFA /* RetainTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetainTester.h; sourceTree = "<group>"; };
+		0F448C7B171D326100E1CAFA /* RetainTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetainTester.m; sourceTree = "<group>"; };
+		0F8E781B1720F1BC00761C47 /* NSString+NSStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringCategory.h"; sourceTree = "<group>"; };
+		0F8E781C1720F1BC00761C47 /* NSString+NSStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringCategory.m"; sourceTree = "<group>"; };
+		0F90E53A171CE773008DA545 /* unicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unicode.h; sourceTree = "<group>"; };
 		0F96E748171BA7B8002BB1E1 /* notesForObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = notesForObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F96E74B171BA7B8002BB1E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F96E74E171BA7B8002BB1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		0F96E75D171BAEA7002BB1E1 /* ExCh05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExCh05.h; sourceTree = "<group>"; };
 		0F96E75E171BDAFD002BB1E1 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		0F96E75F171BDAFD002BB1E1 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		0F9A08B6171F9C380046549D /* CodeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 		0F96E73F171BA7B8002BB1E1 = {
 			isa = PBXGroup;
 			children = (
+				0F9A08B6171F9C380046549D /* CodeBlock.h */,
+				0F448C7A171D326100E1CAFA /* RetainTester.h */,
+				0F448C7B171D326100E1CAFA /* RetainTester.m */,
 				0F96E75D171BAEA7002BB1E1 /* ExCh05.h */,
+				0F90E53A171CE773008DA545 /* unicode.h */,
 				0F96E75E171BDAFD002BB1E1 /* TestClass.h */,
 				0F96E75F171BDAFD002BB1E1 /* TestClass.m */,
 				0F96E75C171BA812002BB1E1 /* ArrayAndDictionary.h */,
@@ -83,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				0F96E74E171BA7B8002BB1E1 /* main.m */,
+				0F8E781B1720F1BC00761C47 /* NSString+NSStringCategory.h */,
+				0F8E781C1720F1BC00761C47 /* NSString+NSStringCategory.m */,
 				0F96E752171BA7B8002BB1E1 /* notesForObjectiveC.1 */,
 				0F96E750171BA7B8002BB1E1 /* Supporting Files */,
 			);
@@ -150,6 +164,8 @@
 			files = (
 				0F96E74F171BA7B8002BB1E1 /* main.m in Sources */,
 				0F96E760171BDAFD002BB1E1 /* TestClass.m in Sources */,
+				0F448C7C171D326100E1CAFA /* RetainTester.m in Sources */,
+				0F8E781D1720F1BC00761C47 /* NSString+NSStringCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,18 +43,24 @@ void ExCh05 () {
     enumerate(mArr);
     
     [mArr removeAllObjects];
-    for (int i = 0; i < 10; i++) {
+    for (int i = 10; i > 0; i--) {
         TestClass *testClass = [TestClass new];
         [testClass setLength:i + 10];
         [testClass setName:[NSString stringWithFormat:@"num %d", i]];
         [mArr addObject:testClass];
     }
-    
+        
+#pragma mark -
+#pragma mark Sort NSMutableArray
     NSSortDescriptor *sd = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:NO];
     
-    [mArr sortUsingDescriptors:[NSArray arrayWithObject:sd]];
+    //[mArr sortUsingDescriptors:[NSArray arrayWithObject:sd]];
+    [mArr sortUsingSelector:@selector(compareInteger:)];
     
     quickEnumerate(mArr);
+    
+    
+#pragma mark -
     
     NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"name1", @"name1s", @"name2", @"name2s", @"name3", @"name3s" ,nil ];
     quickEnumerateDictionary(dic);
@@ -82,7 +88,7 @@ void ExCh05 () {
     NSLog(@"make new string: %@", resultString);
     
     //4 放四个十进制三位数到一个数组中，然后按从小到大排序后组成一个新的数组
-    NSArray *numArr = [NSArray arrayWithObjects:[NSNumber numberWithInt:123], [NSNumber numberWithInt:234], [NSNumber numberWithInt:345], [NSNumber numberWithInt:456]];
+    //NSArray *numArr = [NSArray arrayWithObjects:[NSNumber numberWithInt:123], [NSNumber numberWithInt:234], [NSNumber numberWithInt:345], [NSNumber numberWithInt:456]];
     
     
 }

@@ -13,4 +13,6 @@
 @property (assign, nonatomic) int length;
 @property (retain, nonatomic) NSString *name;
 
+- (NSComparisonResult)compareInteger:(id)otherObject;
+
 @end
