@@ -11,7 +11,13 @@
 @implementation NSString (NSStringCategory)
 
 - (NSNumber *)lengthOfNumber {
+    [self testExtension];
+    
     return [NSNumber numberWithLong:[self length]];
+}
+
+- (void)testExtension {
+    NSLog(@"testExtension");
 }
 
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "myProtocol.h"
 
-@interface TestClass : NSObject
+@interface TestClass : NSObject <myProtocol>
 
 @property (assign, nonatomic) int length;
 @property (retain, nonatomic) NSString *name;

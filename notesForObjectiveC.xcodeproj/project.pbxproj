@@ -13,6 +13,10 @@
 		0F96E74F171BA7B8002BB1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F96E74E171BA7B8002BB1E1 /* main.m */; };
 		0F96E753171BA7B8002BB1E1 /* notesForObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F96E752171BA7B8002BB1E1 /* notesForObjectiveC.1 */; };
 		0F96E760171BDAFD002BB1E1 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F96E75F171BDAFD002BB1E1 /* TestClass.m */; };
+		0FA65D9217250006006B237F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA65D9117250006006B237F /* Student.m */; };
+		0FA65D96172501C9006B237F /* Student+Working.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA65D95172501C9006B237F /* Student+Working.m */; };
+		0FA65D9917252716006B237F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA65D9817252716006B237F /* Person.m */; };
+		0FA65D9C17252809006B237F /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA65D9B17252809006B237F /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +48,18 @@
 		0F96E75E171BDAFD002BB1E1 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		0F96E75F171BDAFD002BB1E1 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		0F9A08B6171F9C380046549D /* CodeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
+		0FA65D8E1724D006006B237F /* NSString_NSStringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString_NSStringExtension.h; sourceTree = "<group>"; };
+		0FA65D8F1724D68C006B237F /* myProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myProtocol.h; sourceTree = "<group>"; };
+		0FA65D9017250006006B237F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0FA65D9117250006006B237F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0FA65D93172500CF006B237F /* Student_StudentExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student_StudentExtension.h; sourceTree = "<group>"; };
+		0FA65D94172501C9006B237F /* Student+Working.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Working.h"; sourceTree = "<group>"; };
+		0FA65D95172501C9006B237F /* Student+Working.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Working.m"; sourceTree = "<group>"; };
+		0FA65D9717252715006B237F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0FA65D9817252716006B237F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0FA65D9A17252809006B237F /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		0FA65D9B17252809006B237F /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		0FA65D9D1725284D006B237F /* PersonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,16 @@
 		0F96E73F171BA7B8002BB1E1 = {
 			isa = PBXGroup;
 			children = (
+				0FA65D9A17252809006B237F /* Teacher.h */,
+				0FA65D9B17252809006B237F /* Teacher.m */,
+				0FA65D93172500CF006B237F /* Student_StudentExtension.h */,
+				0FA65D9017250006006B237F /* Student.h */,
+				0FA65D9117250006006B237F /* Student.m */,
+				0FA65D9717252715006B237F /* Person.h */,
+				0FA65D9817252716006B237F /* Person.m */,
+				0FA65D9D1725284D006B237F /* PersonProtocol.h */,
+				0FA65D94172501C9006B237F /* Student+Working.h */,
+				0FA65D95172501C9006B237F /* Student+Working.m */,
 				0F9A08B6171F9C380046549D /* CodeBlock.h */,
 				0F448C7A171D326100E1CAFA /* RetainTester.h */,
 				0F448C7B171D326100E1CAFA /* RetainTester.m */,
@@ -95,8 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				0F96E74E171BA7B8002BB1E1 /* main.m */,
+				0FA65D8F1724D68C006B237F /* myProtocol.h */,
 				0F8E781B1720F1BC00761C47 /* NSString+NSStringCategory.h */,
 				0F8E781C1720F1BC00761C47 /* NSString+NSStringCategory.m */,
+				0FA65D8E1724D006006B237F /* NSString_NSStringExtension.h */,
 				0F96E752171BA7B8002BB1E1 /* notesForObjectiveC.1 */,
 				0F96E750171BA7B8002BB1E1 /* Supporting Files */,
 			);
@@ -166,6 +194,10 @@
 				0F96E760171BDAFD002BB1E1 /* TestClass.m in Sources */,
 				0F448C7C171D326100E1CAFA /* RetainTester.m in Sources */,
 				0F8E781D1720F1BC00761C47 /* NSString+NSStringCategory.m in Sources */,
+				0FA65D9217250006006B237F /* Student.m in Sources */,
+				0FA65D96172501C9006B237F /* Student+Working.m in Sources */,
+				0FA65D9917252716006B237F /* Person.m in Sources */,
+				0FA65D9C17252809006B237F /* Teacher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,4 +31,8 @@
     return result;
 }
 
+- (int)addx:(int)x andY:(int)y {
+    return x + y;
+}
+
 @end

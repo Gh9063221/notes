@@ -10,6 +10,11 @@
 #import "ExCh05.h"
 #import "unicode.h"
 #import "CodeBlock.h"
+#import "NSString+NSStringCategory.h"
+#import "NSString_NSStringExtension.h"
+#import "Student.h"
+#import "Student+Working.h"
+#import "Teacher.h"
 
 int main(int argc, const char * argv[])
 {
@@ -21,6 +26,20 @@ int main(int argc, const char * argv[])
         getUnicode(@"这");
         getUnicode(@"那");
         codeBlockTest();
+        
+        NSString *str = [NSString stringWithFormat:@" "];
+        [str testExtension];
+        [str lengthOfNumber];
+        
+        
+        Student *stu = [[Student alloc] init];
+        Teacher *tea = [[Teacher alloc] init];
+        
+        NSMutableArray *arr = [NSMutableArray arrayWithObjects:stu, tea, nil];
+        
+        for (id obj in arr) {
+            [obj work];
+        }
         
     }
     return 0;
