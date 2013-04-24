@@ -17,6 +17,6 @@
  已知Student类含有age和name属性，通过类目方式为其添加work方法，并将此类目保存为Student+Working。
  
  */
-
+@property (assign, nonatomic)int score;
 
 @end

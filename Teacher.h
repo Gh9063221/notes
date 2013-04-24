@@ -8,7 +8,12 @@
 
 #import "Person.h"
 #import "PersonProtocol.h"
+#import "Student.h"
 
 @interface Teacher : Person <PersonProtocol>
+
+@property (retain, nonatomic)Student *student;
+
+- (Teacher *)initWithStudent:(Student *)astudent;
 
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F448C7C171D326100E1CAFA /* RetainTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F448C7B171D326100E1CAFA /* RetainTester.m */; };
 		0F8E781D1720F1BC00761C47 /* NSString+NSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E781C1720F1BC00761C47 /* NSString+NSStringCategory.m */; };
+		0F94337E17277581008291ED /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F94337D17277581008291ED /* Singleton.m */; };
 		0F96E74C171BA7B8002BB1E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96E74B171BA7B8002BB1E1 /* Foundation.framework */; };
 		0F96E74F171BA7B8002BB1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F96E74E171BA7B8002BB1E1 /* main.m */; };
 		0F96E753171BA7B8002BB1E1 /* notesForObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F96E752171BA7B8002BB1E1 /* notesForObjectiveC.1 */; };
@@ -38,6 +39,8 @@
 		0F8E781B1720F1BC00761C47 /* NSString+NSStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringCategory.h"; sourceTree = "<group>"; };
 		0F8E781C1720F1BC00761C47 /* NSString+NSStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringCategory.m"; sourceTree = "<group>"; };
 		0F90E53A171CE773008DA545 /* unicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unicode.h; sourceTree = "<group>"; };
+		0F94337C17277581008291ED /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		0F94337D17277581008291ED /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		0F96E748171BA7B8002BB1E1 /* notesForObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = notesForObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F96E74B171BA7B8002BB1E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F96E74E171BA7B8002BB1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 		0F96E73F171BA7B8002BB1E1 = {
 			isa = PBXGroup;
 			children = (
+				0F94337C17277581008291ED /* Singleton.h */,
+				0F94337D17277581008291ED /* Singleton.m */,
 				0FA65D9A17252809006B237F /* Teacher.h */,
 				0FA65D9B17252809006B237F /* Teacher.m */,
 				0FA65D93172500CF006B237F /* Student_StudentExtension.h */,
@@ -198,6 +203,7 @@
 				0FA65D96172501C9006B237F /* Student+Working.m in Sources */,
 				0FA65D9917252716006B237F /* Person.m in Sources */,
 				0FA65D9C17252809006B237F /* Teacher.m in Sources */,
+				0F94337E17277581008291ED /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

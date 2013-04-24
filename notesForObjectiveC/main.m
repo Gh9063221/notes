@@ -33,7 +33,7 @@ int main(int argc, const char * argv[])
         
         
         Student *stu = [[Student alloc] init];
-        Teacher *tea = [[Teacher alloc] init];
+        Teacher *tea = [[Teacher alloc] initWithStudent:stu];
         
         NSMutableArray *arr = [NSMutableArray arrayWithObjects:stu, tea, nil];
         
@@ -41,6 +41,10 @@ int main(int argc, const char * argv[])
             [obj work];
         }
         
+        
+        stu.score = 50;
+        stu.score = 80;
+        stu.score = 60;
     }
     return 0;
 }
