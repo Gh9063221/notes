@@ -15,6 +15,11 @@
 #import "Student.h"
 #import "Student+Working.h"
 #import "Teacher.h"
+#import "NSdateExample.h"
+#import "NSCalenderExample.h"
+
+
+
 
 int main(int argc, const char * argv[])
 {
@@ -45,6 +50,9 @@ int main(int argc, const char * argv[])
         stu.score = 50;
         stu.score = 80;
         stu.score = 60;
+        
+        nSdateExample();
+        nSCalenderExample();
     }
     return 0;
 }

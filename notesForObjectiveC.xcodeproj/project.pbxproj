@@ -51,6 +51,8 @@
 		0F96E75E171BDAFD002BB1E1 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		0F96E75F171BDAFD002BB1E1 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		0F9A08B6171F9C380046549D /* CodeBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
+		0F9CD8EA1728C01D00F9DC06 /* NSdateExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSdateExample.h; sourceTree = "<group>"; };
+		0F9CD8EB1728C1D200F9DC06 /* NSCalenderExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCalenderExample.h; sourceTree = "<group>"; };
 		0FA65D8E1724D006006B237F /* NSString_NSStringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString_NSStringExtension.h; sourceTree = "<group>"; };
 		0FA65D8F1724D68C006B237F /* myProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myProtocol.h; sourceTree = "<group>"; };
 		0FA65D9017250006006B237F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				0F96E75E171BDAFD002BB1E1 /* TestClass.h */,
 				0F96E75F171BDAFD002BB1E1 /* TestClass.m */,
 				0F96E75C171BA812002BB1E1 /* ArrayAndDictionary.h */,
+				0F9CD8EC1728C1F100F9DC06 /* NSClass */,
 				0F96E74D171BA7B8002BB1E1 /* notesForObjectiveC */,
 				0F96E74A171BA7B8002BB1E1 /* Frameworks */,
 				0F96E749171BA7B8002BB1E1 /* Products */,
@@ -142,6 +145,15 @@
 				0F96E751171BA7B8002BB1E1 /* notesForObjectiveC-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F9CD8EC1728C1F100F9DC06 /* NSClass */ = {
+			isa = PBXGroup;
+			children = (
+				0F9CD8EA1728C01D00F9DC06 /* NSdateExample.h */,
+				0F9CD8EB1728C1D200F9DC06 /* NSCalenderExample.h */,
+			);
+			name = NSClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
